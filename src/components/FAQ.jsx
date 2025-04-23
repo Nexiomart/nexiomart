@@ -57,27 +57,3 @@ const FAQ = () => {
 export default FAQ;
 
 
-
-// import React from 'react';
-// // import { Accordion, AccordionItem } from "@/components/ui/accordion";
-
-
-// const FAQ = () => {
-//   return (
-//     <section className="py-16 px-4 text-center bg-white">
-//       <h2 className="text-3xl font-bold mb-8 text-gray-800">Frequently Asked Questions</h2>
-//       {/* <Accordion type="single" collapsible className="w-full max-w-3xl mx-auto text-left"> 
-//         <AccordionItem value="q1" className="mb-2">
-//           <AccordionItem.Header>How do I register as a supplier?</AccordionItem.Header>
-//           <AccordionItem.Content>Just head to the Register page, select 'Supplier', and fill in your business details.</AccordionItem.Content>
-//         </AccordionItem>
-//         <AccordionItem value="q2" className="mb-2">
-//           <AccordionItem.Header>What are the benefits of becoming a Growth Partner?</AccordionItem.Header>
-//           <AccordionItem.Content>You get paid for every referral, access to exclusive training, and personal dashboards.</AccordionItem.Content>
-//         </AccordionItem>
-//        </Accordion> */}
-//     </section>
-//   );
-// };
-
-// export default FAQ;

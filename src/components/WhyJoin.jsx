@@ -42,7 +42,7 @@ const WhyJoin = () => {
             whileInView="visible"
             viewport={{ once: true }}
             variants={cardVariants}
-            className="bg-white p-6 rounded-2xl shadow-md hover:shadow-2xl hover:scale-105 transition-transform duration-500 border border-orange-100"
+            className="bg-white p-6 rounded-2xl shadow-md shadow-orange-200/50 hover:shadow-2xl hover:scale-105 transition-transform duration-500 border border-orange-100"
           >
             <h3 className="text-2xl font-semibold text-orange-600 mb-3">{item.title}</h3>
             <p className="text-gray-600 leading-relaxed">{item.desc}</p>
@@ -57,29 +57,3 @@ export default WhyJoin;
 
 
 
-
-// import React from 'react';
-
-// const points = [
-//   { title: "📦 Suppliers", desc: "Access pan-India buyers, analytics tools, and faster payments." },
-//   { title: "🛒 Customers", desc: "Get best deals, verified suppliers, and smooth order tracking." },
-//   { title: "🤝 Growth Partners", desc: "Earn from referrals, get training, and manage leads seamlessly." }
-// ];
-
-// const WhyJoin = () => {
-//   return (
-//     <section className="py-16 px-4 bg-white text-center">
-//       <h2 className="text-4xl font-bold mb-10 text-gray-800">Why Join Nexio Mart?</h2>
-//       <div className="grid md:grid-cols-3 gap-8">
-//         {points.map((item, idx) => (
-//           <div key={idx} className="bg-orange-100 p-6 rounded-xl shadow hover:shadow-lg transition">
-//             <h3 className="text-2xl font-semibold text-orange-600 mb-2">{item.title}</h3>
-//             <p className="text-gray-700">{item.desc}</p>
-//           </div>
-//         ))}
-//       </div>
-//     </section>
-//   );
-// };
-
-// export default WhyJoin;    
