@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import logo from '../assets/nexio-logo.jpg' ;
+import logo from '../assets/Nexio-logo.jpg' ;
 
 const Navbar = () => {
   return (
