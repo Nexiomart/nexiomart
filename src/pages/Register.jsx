@@ -73,12 +73,12 @@ const Register = () => {
             <input
               type="radio"
               name="role"
-              value="supplier"
+              value="seller"
               className="accent-orange-400 cursor-pointer"
-              checked={role === 'supplier'}
+              checked={role === 'seller'}
               onChange={(e) => setRole(e.target.value)}
             />{' '}
-            Supplier
+            Seller
           </label>
           <label>
             <input
@@ -101,8 +101,8 @@ const Register = () => {
 
           <input type="hidden" name="role" value={role} />
 
-          {role === 'supplier' && (
-            <input className="w-full border p-2 rounded" name="company" placeholder="Company Name" />
+          {role === 'seller' && (
+            <input className="w-full border p-2 rounded" name="company" placeholder="Firm Name" />
           )}
 
           {role === 'partner' && (

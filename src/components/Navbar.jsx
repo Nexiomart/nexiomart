@@ -30,6 +30,12 @@ const Navbar = () => {
         >
           Contact Us
         </Link>
+        <Link
+          to="/pay-subscription"
+          className="bg-orange-200 hover:bg-orange-500 hover:text-white text-orange-600 font-semibold px-4 py-2 rounded-full transition duration-300 shadow-sm"
+        >
+          Subscription
+        </Link>
       </div>
     </nav>
   );

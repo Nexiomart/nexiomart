@@ -5,6 +5,7 @@ import Footer from "./components/Footer";
 import ContactUs from './components/ContactUs';
 import TermsOfService from "./components/TermsOfService";
 import PrivacyPolicy from "./components/PrivacyPolicy";
+import UpiPayment from "./components/UpiPayment";
 
 
 const Home = lazy(() => import("./pages/Home"));
@@ -23,6 +24,7 @@ function App() {
               <Route path="/contact" element={<ContactUs />} />
               <Route path="/terms" element={<TermsOfService />} />
               <Route path="/privacy" element={<PrivacyPolicy />} />
+              <Route path="/pay-subscription" element={<UpiPayment />} />
             </Routes>
           </Suspense>
         </main>
