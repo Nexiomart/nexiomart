@@ -51,7 +51,7 @@ const UpiPayment = () => {
           After completing the payment, click below to confirm and upload payment proof.
         </p>
         <p className="text-xl text-orange-700 text-center  mb-4">
-          Subcription Amount : 1999/- including GST.
+          Subcription Amount : 1999/- + GST.
         </p>
 
         <button
