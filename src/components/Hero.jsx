@@ -49,14 +49,26 @@ const Hero = () => {
           Join India's most dynamic e-commerce network and elevate your brand today.
         </motion.p>
 
-        <motion.button
+        <a href="https://nexio-ecommerce-qbdl.vercel.app/" target="_blank" rel="noopener noreferrer">
+  <motion.button
+    whileHover={{ scale: 1.08 }}
+    whileTap={{ scale: 0.95 }}
+    transition={{ type: "spring", stiffness: 300 }}
+    className="bg-orange-500 hover:bg-orange-600 text-white px-8 py-3 text-lg rounded-2xl shadow-xl"
+  >
+    Get Started
+  </motion.button>
+</a>
+
+
+        {/* <motion.button
           whileHover={{ scale: 1.08 }}
           whileTap={{ scale: 0.95 }}
           transition={{ type: "spring", stiffness: 300 }}
           className="bg-orange-500 hover:bg-orange-600 text-white px-8 py-3 text-lg rounded-2xl shadow-xl"
         >
           Get Started
-        </motion.button>
+        </motion.button> */}
       </div>
 
       {/* Continuous Carousel */}
