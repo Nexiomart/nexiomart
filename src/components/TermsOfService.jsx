@@ -10,7 +10,7 @@ const TermsOfService = () => {
       className="max-w-4xl mx-auto my-12 p-6 md:p-10 bg-orange-50 border border-orange-200 rounded-2xl shadow-lg"
     >
       <h1 className="text-3xl md:text-4xl font-bold text-orange-500 mb-6 text-center">
-        Terms of Service
+        Terms & Conditions
       </h1>
 
       <p className="text-gray-700 mb-6">
