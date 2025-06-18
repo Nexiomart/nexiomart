@@ -6,6 +6,9 @@ import FAQ from '../components/FAQ';
 import MarketOpportunitySection from '../components/MarketOpportunitySection';
 import VideoCard from '../components/VideoCard';
 import HowWeHelp from '../components/HowWeHelp';
+import BlogResources from '../components/BlogResources';
+import WhoIsThisFor from '../components/WhoIsThisFor';
+import NexiomartBenefits from '../components/NexiomartBenefits';
 
 
 const Home = () => {
@@ -13,9 +16,12 @@ const Home = () => {
     <div>
       <Hero />
       <WhyJoin />
-      <Testimonials />
+      <WhoIsThisFor />
       <VideoCard/>
+      <NexiomartBenefits />
       <MarketOpportunitySection/>
+      <BlogResources />
+      <Testimonials />
       <FAQ />
       <HowWeHelp/>
     </div>
