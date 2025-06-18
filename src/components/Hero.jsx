@@ -177,6 +177,7 @@ const Hero = () => {
             whileTap={{ scale: 0.95 }}
             transition={{ type: "spring", stiffness: 300 }}
             // href="https://nexio-ecommerce-qbdl.vercel.app/"
+            href="/Register"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-orange-500 hover:bg-orange-600 text-white px-6 py-3 text-lg rounded-2xl shadow-xl"
@@ -201,7 +202,7 @@ const Hero = () => {
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
             transition={{ type: "spring", stiffness: 300 }}
-            href="#growth-partner"
+            href="/Register"
             className="border border-orange-500 text-orange-500 hover:bg-orange-100 px-6 py-3 text-lg rounded-2xl shadow-xl"
           >
             I Want to Join as a Growth Partner

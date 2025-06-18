@@ -36,8 +36,8 @@ const Footer = () => {
           <a href="/privacy" className="hover:text-orange-700 transition-colors">Privacy Policy</a>
           <a href="/terms" className="hover:text-orange-700 transition-colors">Terms & Conditions</a> 
           <a href="/HelpCenter" className="hover:text-orange-700 transition-colors">Help Center</a>
-          <a href="/manufacturer-login" className="hover:text-orange-700 transition-colors">Manufacturer Login</a>
-          <a href="/become-a-partner" className="hover:text-orange-700 transition-colors">Become a Partner</a>
+          <a href="/Register" className="hover:text-orange-700 transition-colors">Manufacturer Register</a>
+          <a href="/Register" className="hover:text-orange-700 transition-colors">Become a Partner</a>
         </div>
 
         {/* Copyright */}
