@@ -32,9 +32,56 @@ const Register = () => {
   }, [location]);
 
   // Send OTP
+//   const sendOTP = async () => {
+//   const phoneInput = document.querySelector('input[name="phone"]');
+//   const emailInput = document.querySelector('input[name="email"]');
+
+//   const phoneNumber = phoneInput?.value.trim();
+//   const email = emailInput?.value.trim();
+
+//   // 🚨 Check for empty email or phone
+//   if (!email || !phoneNumber) {
+//     alert('Please fill both Email and Phone fields.');
+//     return;
+//   }
+
+//   // 🚨 Check phone number format
+//   if (phoneNumber.length !== 10 || isNaN(phoneNumber)) {
+//     alert('Please enter a valid 10-digit phone number');
+//     return;
+//   }
+
+//   try {
+//     if (!window.recaptchaVerifier) {
+//       window.recaptchaVerifier = new RecaptchaVerifier(auth, 'recaptcha-container', {
+//         size: 'invisible',
+//         callback: () => sendOTP(),
+//       });
+//     }
+
+//     const appVerifier = window.recaptchaVerifier;
+
+//     const confirmation = await signInWithPhoneNumber(auth, '+91' + phoneNumber, appVerifier);
+//     setVerificationId(confirmation.verificationId);
+//     setOtpSent(true);
+//     alert('OTP sent to your phone');
+//   } catch (error) {
+//     console.error(error);
+//     alert('Failed to send OTP. Please try again.');
+//   }
+// };
+
   const sendOTP = async () => {
     const phoneInput = document.querySelector('input[name="phone"]');
+     const emailInput = document.querySelector('input[name="email"]');
     const phoneNumber = '+91' + phoneInput.value.trim();
+  const email = emailInput?.value.trim();
+
+  //  🚨 Check for empty email or phone
+  if (!email || !phoneNumber) {
+    alert('Please fill Email field.');
+    return;
+  }
 
     if (!phoneInput || phoneInput.value.length !== 10) {
       alert('Please enter a valid 10-digit phone number');
