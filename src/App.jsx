@@ -12,6 +12,7 @@ import HelpCenter from "./components/HelpCenter";
 
 const Home = lazy(() => import("./pages/Home"));
 const Register = lazy(() => import("./pages/Register"));
+const Platform = lazy(() => import("./pages/Platform"));
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
               <Route path="/" element={<Home />} />
               <Route path="/AboutUs" element={<AboutUs />} />
               <Route path="/register" element={<Register />} />
+              <Route path="/platform" element={<Platform />} />
               <Route path="/contact" element={<ContactUs />} />
               <Route path="/terms" element={<TermsOfService />} />
               <Route path="/privacy" element={<PrivacyPolicy />} />

@@ -189,9 +189,8 @@ const Hero = () => {
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
             transition={{ type: "spring", stiffness: 300 }}
-            href="https://nexio-ecommerce-qbdl.vercel.app/"
+            href="/platform"
             target="_blank"
-            rel="noopener noreferrer"
             className="bg-orange-200 hover:bg-orange-400 text-orange-700 border border-orange-800 px-6 py-3 text-lg rounded-2xl shadow-xl"
           >
              Get Started
